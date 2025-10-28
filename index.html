@@ -648,132 +648,86 @@
                         </a> -->
                   </p>
                </div>
-
-
- <!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Evaluating CAV Penetration on a 2-km Expressway Using SUMO: A Case Study</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-<style>
-:root { --bg:#0b0f19; --card:#fff; --ink:#111; --muted:#586174; --ring:#e6e9f2; --brand:#2459f6; }
-body{margin:0;background:var(--bg);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink)}
-.wrap{max-width:1100px;margin:28px auto;padding:0 16px}
-.hero{background:#fff;border-radius:14px;box-shadow:0 10px 28px rgba(0,0,0,.08);padding:22px}
-h1{margin:0 0 6px 0;font-size:clamp(1.2rem,1rem+1.4vw,1.9rem);letter-spacing:-.02em}
-.sub{color:var(--muted);margin:0}
-.row{display:grid;grid-template-columns:1fr;gap:16px;margin-top:16px}
-@media(min-width:960px){.row{grid-template-columns:1.5fr 1fr}}
-.card{background:var(--card);border:1px solid var(--ring);border-radius:12px;box-shadow:0 6px 18px rgba(0,0,0,.06)}
-.card>header{padding:12px 14px;border-bottom:1px solid var(--ring);font-weight:700}
-.card>.body{padding:12px 14px}
-select, a.btn{border:1px solid var(--ring);border-radius:10px;padding:8px 10px;font-weight:600}
-a.btn{display:inline-flex;gap:8px;align-items:center;text-decoration:none;color:#111;background:#fff}
-a.btn.primary{background:var(--brand);color:#fff;border-color:transparent}
-.muted{color:var(--muted)}
-#viewer{width:100%;height:420px;border:0;border-radius:10px;background:#f7f8fc;border:1px dashed #d9dcec}
-table{width:100%;border-collapse:collapse}
-th,td{padding:8px;border-bottom:1px solid var(--ring);font-size:.9rem;text-align:left}
-.flex{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
-</style>
-</head>
-<body>
-<div class="wrap">
-<section class="hero">
-<h1>Evaluating CAV Penetration on a 2-km Expressway Using SUMO: A Case Study</h1>
-<p class="sub">Two scenarios are ready. Pick one from the dropdown. Links and tables will auto-switch.</p>
-<div class="flex" style="margin-top:10px">
-<label for="scenario"><strong>Scenario:</strong></label>
-<select id="scenario">
-<option value="hdv_0">hdv_0 (0% CAV / 100% HDV)</option>
-<option value="hdv_50">hdv_50 (50% CAV)</option>
-</select>
-<a id="zipBtn" class="btn" href="#" download>⬇️ Download scenario ZIP</a>
-</div>
-</section>
-
-
-<section class="row" style="margin-top:18px">
-<div class="card">
-<header>Quick Links</header>
-<div class="body">
-<div class="flex">
-<a id="cfg" class="btn" href="#" download>sumocfg</a>
-<a id="net" class="btn" href="#" download>net.xml</a>
-</div>
-<p class="muted" style="margin-top:8px">Make sure these files exist inside <code>/hdv_0</code> and <code>/hdv_50</code> with the same names (you can change names below in the configuration JSON).</p>
-</div>
-</div>
-
-
-<div class="card">
-<header>Recorded Run (optional)</header>
-<div class="body">
-<video id="vid" controls poster="./media/main_dp.jpg" style="width:100%;height:320px;border-radius:10px">
-<source id="vidSrc" src="./hdv_0/Screen Recording (10-29-2025 4-47-05 AM) (online-video-cutter.com).mp4" type="video/mp4" />
-</video>
-<p class="muted" style="margin-top:6px">Drop a <code>run.mp4</code> inside each scenario folder to show a clip from SUMO-GUI.</p>
-</div>
-</div>
-</section>
-
-
-<section class="row" id="tables" style="margin-top:18px">
-<div class="card">
-<header>tripinfo (preview)</header>
-<div class="body">
-<div id="tbl_tripinfo" style="overflow:auto;max-height:420px"></div>
-</div>
-</div>
-<div class="card">
-<header>emissions (preview)</header>
-<div class="body">
-<div id="tbl_em" style="overflow:auto;max-height:420px"></div>
-</div>
-</div>
-</section>
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                
+               <!--corrosion detection-->
+               <div  style="max-width:800px;margin:24px auto;padding:28px 28px 8px 28px;border-radius:12px;background:#ffffff;box-shadow:0 6px 20px rgba(0,0,0,0.06);font-family:Inter, Roboto, -apple-system, 'Segoe UI', Arial, sans-serif;color:#111;line-height:1.6;">
+                  
+                  <p style="margin: 0 0 6px 0; font-weight: bold; font-size: 1.1rem;">
+                    Evaluating CAV Penetration on a 2-km Expressway Using SUMO: A Case Study
+                  </p>
+
+                  <div style="max-width: 900px; margin: 20px auto; padding: 0 10px;">
+                  <iframe
+                     src="https://lemonslayer-concrete-corrosion-prediction.hf.space"
+                     frameborder="0"
+                     style="width: 100%; height: 450px; border-radius: 8px; border: none; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"
+                  ></iframe>
+                  </div>
+
+                  <p>
+                     <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://huggingface.co/spaces/lemonslayer/Concrete_Corrosion_Prediction" target="_blank" rel="noopener">
+                     Source
+                     </a>
+                     <!-- <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1145/3394486.3403097" target="_blank" rel="noopener">
+                        DOI
+                        </a> -->
+                  </p>
+               </div>
+
+
+<!-- CAV Expressway Case Study -->
+<div style="max-width:800px;margin:24px auto;padding:28px 28px 12px;border-radius:12px;background:#ffffff;box-shadow:0 6px 20px rgba(0,0,0,0.06);font-family:Inter, Roboto, -apple-system, 'Segoe UI', Arial, sans-serif;color:#111;line-height:1.6;">
+
+  <p style="margin:0 0 10px 0;font-weight:700;font-size:1.1rem;">
+    Evaluating CAV Penetration on a 2-km Expressway Using SUMO: A Case Study
+  </p>
+
+  <!-- Media block (Video + Image) -->
+  <div style="display:grid;grid-template-columns:1fr;gap:16px;margin:16px 0;">
+    <!-- Video -->
+    <figure style="margin:0;">
+      <video
+        controls
+        preload="metadata"
+        style="width:100%;border-radius:10px;box-shadow:0 3px 10px rgba(0,0,0,0.08);"
+        poster="/images/Capture.PNG"
+      >
+        <source src="/videos/Screen Recording (10-29-2025 4-47-05 AM) (online-video-cutter.com).mp4" type="video/mp4" />
+       
+        Your browser does not support the video tag.
+      </video>
+      <figcaption style="font-size:0.9rem;color:#555;margin-top:6px;">
+        Demo: 2-km expressway simulation (CAV penetration scenarios).
+      </figcaption>
+    </figure>
+
+    <!-- Image -->
+    <figure style="margin:0;">
+      <a href="/images/cav_expressway_overview_full.png" target="_blank" rel="noopener">
+        <img
+          src="/images/Capture.PNG"
+          alt="Overview of SUMO network and detector placement for the 2-km expressway"
+          loading="lazy"
+          style="width:100%;height:auto;border-radius:10px;box-shadow:0 3px 10px rgba(0,0,0,0.08);"
+        />
+      </a>
+      <figcaption style="font-size:0.9rem;color:#555;margin-top:6px;">
+        Network overview & detector layout (click to open full image).
+      </figcaption>
+    </figure>
+  </div>
+
+  <!-- Action buttons -->
+  <p style="margin-top:10px;">
+    <a class="btn btn-outline-primary my-1 mr-1 btn-sm"
+       href="/files/hdv_0"
+       href="/files/hdv_50"
+       target="_blank" rel="noopener">
+      Source
+    </a>
+  </p>
+
+</div>
                
                <!--accident risk prediction-->
                <div  style="max-width:800px;margin:24px auto;padding:28px 28px 8px 28px;border-radius:12px;background:#ffffff;box-shadow:0 6px 20px rgba(0,0,0,0.06);font-family:Inter, Roboto, -apple-system, 'Segoe UI', Arial, sans-serif;color:#111;line-height:1.6;">
