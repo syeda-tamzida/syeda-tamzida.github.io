@@ -236,6 +236,13 @@
                      <p><a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/syeda-tamzida/evidence-grounded-llm-trading-agent" target="_blank" rel="noopener">GitHub</a></p>
                   </div>
                   <div style="max-width:800px;margin:24px auto;padding:28px 28px 12px 28px;border-radius:12px;background:#ffffff;box-shadow:0 6px 20px rgba(0,0,0,0.06);font-family:Inter, Roboto, -apple-system, 'Segoe UI', Arial, sans-serif;color:#111;line-height:1.6;">
+                     <p style="margin:0 0 6px 0;font-weight:bold;font-size:1.1rem;">Gemma-3-1B: Prompting, LoRA/QLoRA Fine-Tuning and BM25 Retrieval</p>
+                     <p style="margin:0 0 8px 0;font-style:italic;color:#555;">CS 554 Natural Language Processing, WPI &middot; Fall 2026</p>
+                     <ul style="margin:0 0 12px 20px;padding:0;font-size:15px;color:#222;"><li>Fine-tuned Gemma-3-1B with LoRA and QLoRA on SQuAD v2 to answer with short spans from the passage and abstain (&ldquo;NOT IN CONTEXT&rdquo;) when the answer is absent: LoRA raised exact match from 64 to 74 and correct abstention from 24% to 74%</li><li>Built a BM25 retriever over 12,241 SciQ paragraphs; top-1 retrieval-augmented generation lifted exact match from 0.7 to 80.7, and more passages hurt the small model</li><li>Compared fine-tuning and retrieval in a 2 &times; 2 design to separate what changes the model&rsquo;s behavior from what supplies knowledge</li></ul>
+                     <p><a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/syeda-tamzida/gemma3-lora-qlora-rag" target="_blank" rel="noopener">GitHub</a></p>
+                  </div>
+
+                  <div style="max-width:800px;margin:24px auto;padding:28px 28px 12px 28px;border-radius:12px;background:#ffffff;box-shadow:0 6px 20px rgba(0,0,0,0.06);font-family:Inter, Roboto, -apple-system, 'Segoe UI', Arial, sans-serif;color:#111;line-height:1.6;">
                      <p style="margin:0 0 6px 0;font-weight:bold;font-size:1.1rem;">BanReady: Snow-Ban Parking Assistant</p>
                      <p style="margin:0 0 8px 0;font-style:italic;color:#555;">WPI i3 Lab Demo Day &middot; Fall 2026</p>
                      <ul style="margin:0 0 12px 20px;padding:0;font-size:15px;color:#222;"><li>Working prototype app that shows Worcester drivers where they can legally park during winter snow parking bans</li><li>Estimates the chance of finding an empty legal space on storm nights and suggests free lots and garages within a 5&ndash;10 minute walk</li></ul>
