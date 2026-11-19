@@ -26,7 +26,7 @@
  <div class="links"><a href="index.html">Home</a><a href="publications.html">Publications</a><a href="projects.html" class="active">Projects</a><a href="files/Syeda_Tamzida_Akter_CV.pdf" target="_blank" rel="noopener">CV</a></div>
 </div></nav>
 <main>
-<h1 class="name" style="font-size:40px"><b>Projects</b></h1><p class="sub">(code for all projects on <a href="https://github.com/syeda-tamzida" target="_blank" rel="noopener">GitHub</a>)</p>
+<h1 class="name" style="font-size:40px"><b>Projects</b></h1><p class="sub">(code for all projects on <a href="https://github.com/syeda-tamzida" target="_blank" rel="noopener">GitHub</a>)</p><h3 class="group">LLMs &amp; NLP</h3>
 <div class="pub">
  <div class="thumbcol"><div class="thumb"><div class="tile" style="background:linear-gradient(135deg,#3b6e9e,#1e2b3a)"><span>Qwen 2.5 + LoRA<br>tool-calling agent<br>with verified citations</span></div></div><span class="badge">LLM agent</span></div>
  <div>
@@ -44,7 +44,52 @@
   <p class="desc">Fine-tuned Gemma-3-1B with LoRA and QLoRA on SQuAD v2 to answer with short spans from the passage and abstain when the answer is absent: LoRA raised exact match from 64 to 74 and correct abstention from 24% to 74%. A BM25 retriever over 12,241 SciQ paragraphs raised exact match from 0.7 to 80.7.</p>
   <div class="btns"><a href="https://github.com/syeda-tamzida/gemma3-lora-qlora-rag" target="_blank" rel="noopener">GitHub</a></div>
  </div>
+</div><h3 class="group">Traffic Simulation (SUMO)</h3>
+<div class="pub">
+ <div class="thumbcol"><div class="thumb"><img src="assets/thumbs/tigerpass.jpg" alt=""></div><span class="badge">SUMO · ML</span></div>
+ <div>
+  <p class="title">CO<sub>2</sub> Emission Prediction at the Tigerpass Intersection: Drone Footage, SUMO and Interpretable ML</p>
+  <p class="venue">IEEE QPAIN 2026 · Chattogram, Bangladesh</p>
+  <p class="desc">Used drone footage of the Tigerpass intersection to build a SUMO microsimulation of heterogeneous traffic, then predicted CO<sub>2</sub> emissions with machine learning and explained the drivers of emissions with SHAP.</p>
+  <div class="btns"><a href="https://github.com/syeda-tamzida/co2-drone-sumo-ml-tigerpass" target="_blank" rel="noopener">GitHub</a><a href="https://doi.org/10.1109/QPAIN69676.2026.11546352" target="_blank" rel="noopener">Paper</a></div>
+ </div>
 </div>
+<div class="pub">
+ <div class="thumbcol"><div class="thumb"><img src="assets/thumbs/rl.jpg" alt=""></div><span class="badge">SUMO · RL</span></div>
+ <div>
+  <p class="title">Reinforcement-Learning Traffic Signal Control at Tigerpass</p>
+  <p class="venue">Independent · Fall 2025 · Under review</p>
+  <p class="desc">Compared MPLight, IDQN and fixed-time control at the Tigerpass intersection under heterogeneous traffic, measuring delay, waiting time, phase length and queue length over training episodes.</p>
+  <div class="btns"><a href="https://github.com/syeda-tamzida/Traffic-Signal-Control-Optimization-for-Heterogeneous-Traffic-Using-Reinforcement-Learning" target="_blank" rel="noopener">GitHub</a><a href="https://drive.google.com/file/d/11IZLD1PHiMUmfwVvhPO8S80DtDUedo6k/view?usp=sharing" target="_blank" rel="noopener">Preprint</a></div>
+ </div>
+</div>
+<div class="pub">
+ <div class="thumbcol"><div class="thumb"><img src="assets/thumbs/v2v.jpg" alt=""></div><span class="badge">SUMO · ns-3</span></div>
+ <div>
+  <p class="title">V2V Communication Delay Prediction for CAV Platoons (SUMO + ns-3)</p>
+  <p class="venue">Independent · 2025 · Preprint</p>
+  <p class="desc">Simulated six five-vehicle CAV platoons on a 3&times;3 grid in SUMO, fed the trajectories into ns-3 to emulate IEEE 802.11p V2V communication, and predicted packet delay from speed, distance and signal strength with Random Forest and XGBoost.</p>
+  <div class="btns"><a href="https://github.com/syeda-tamzida/Optimizing-V2V-Communication-Delay-Prediction-in-CAV-Vehicles-through-SUMO-and-ns-3-Simulations" target="_blank" rel="noopener">GitHub</a><a href="https://dx.doi.org/10.2139/ssrn.5628790" target="_blank" rel="noopener">Preprint</a></div>
+ </div>
+</div>
+<div class="pub">
+ <div class="thumbcol"><div class="thumb"><img src="assets/thumbs/expressway.jpg" alt=""></div><span class="badge">SUMO · CAV</span></div>
+ <div>
+  <p class="title">CAV Penetration Effects on a 2-km Expressway</p>
+  <p class="venue">Independent · 2025</p>
+  <p class="desc">Simulated a 2-km expressway at 25%, 50%, 75% and 100% connected and automated vehicle penetration, with ACC/CACC-like CAV car-following, and measured mobility, traffic stability, safety surrogates and emissions from SUMO outputs and virtual detectors.</p>
+  <div class="btns"><a href="https://github.com/syeda-tamzida/Epressway_SUMO" target="_blank" rel="noopener">GitHub</a></div>
+ </div>
+</div>
+<div class="pub">
+ <div class="thumbcol"><div class="thumb"><img src="assets/thumbs/intersection.jpg" alt=""></div><span class="badge">SUMO</span></div>
+ <div>
+  <p class="title">Signalized Intersection Design</p>
+  <p class="venue">Independent · 2025</p>
+  <p class="desc">Built a one-hour SUMO simulation of a signalized intersection, with vehicle demand and traffic-light timings set from observed red and green phases.</p>
+  <div class="btns"><a href="https://github.com/syeda-tamzida/Sumo_Projects" target="_blank" rel="noopener">GitHub</a></div>
+ </div>
+</div><h3 class="group">Machine Learning, Vision &amp; Apps</h3>
 <div class="pub">
  <div class="thumbcol"><div class="thumb"><img src="assets/thumbs/banready.jpg" alt=""></div><span class="badge">App</span></div>
  <div>
@@ -82,7 +127,7 @@
  </div>
 </div>
 <div class="pub">
- <div class="thumbcol"><div class="thumb"><div class="tile" style="background:linear-gradient(135deg,#4a5a8a,#1e2b3a)"><span>Dynamic exposure<br>across 10 cities</span></div></div><span class="badge">Urban risk</span></div>
+ <div class="thumbcol"><div class="thumb"><div class="tile" style="background:linear-gradient(135deg,#2f7d7a,#1e2b3a)"><span>Dynamic exposure<br>across 10 cities</span></div></div><span class="badge">Urban risk</span></div>
  <div>
   <p class="title">ML-Based Dynamic Exposure Assessment for Urban Hazard Risk</p>
   <p class="venue">Tomorrow&rsquo;s Cities · 2026</p>
@@ -91,16 +136,7 @@
  </div>
 </div>
 <div class="pub">
- <div class="thumbcol"><div class="thumb"><div class="tile" style="background:linear-gradient(135deg,#3b6e9e,#1e2b3a)"><span>SUMO<br>25&ndash;100% CAV<br>penetration</span></div></div><span class="badge">Simulation</span></div>
- <div>
-  <p class="title">CAV Penetration on a 2-km Expressway (SUMO)</p>
-  <p class="venue">Independent · 2025</p>
-  <p class="desc">Quantified speed, travel time, delay, throughput, safety surrogates and emissions at 25/50/75/100% connected and automated vehicle penetration, with significance testing.</p>
-  <div class="btns"><a href="https://github.com/syeda-tamzida/Epressway_SUMO" target="_blank" rel="noopener">GitHub</a></div>
- </div>
-</div>
-<div class="pub">
- <div class="thumbcol"><div class="thumb"><div class="tile" style="background:linear-gradient(135deg,#5b7f4a,#1e2b3a)"><span>DBSCAN hotspots<br>+ risk chatbot</span></div></div><span class="badge">Road safety</span></div>
+ <div class="thumbcol"><div class="thumb"><div class="tile" style="background:linear-gradient(135deg,#7a4b3a,#1e2b3a)"><span>DBSCAN hotspots<br>+ risk chatbot</span></div></div><span class="badge">Road safety</span></div>
  <div>
   <p class="title">Accident Risk in Melbourne: Hotspots and Chatbot</p>
   <p class="venue">Independent · 2025</p>
